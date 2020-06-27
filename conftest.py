@@ -17,6 +17,6 @@ def browser(request):
     print("\nstart browser for test..")
     browser = webdriver.Chrome(options=options)   
     yield browser
-    time.sleep(30)
+    #time.sleep(5)
     print("\nquit browser..")
     browser.quit()
